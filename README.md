@@ -1,21 +1,25 @@
 # Generate Service Broker Metadata from JSON template.
 
-Examines the parameters of the JSON Cloudformation template to create the Service Broker Metadata Metadata for the template in JSON and YAML.
+Examines the parameters of the JSON Cloudformation template to create the Service Broker Metadata for the template in JSON and YAML format. 
+It will include all parameters in the template into the metadata.
 
 ## Setup
 
 1. Requires .net core 2.1 (https://dotnet.microsoft.com/download/dotnet-core/2.1) (for Windows/MacOS/Linux/Other)
-2. Download contents of the 'Release' folder from this repo
-3. cd into the Release folder, and run app from command line: 
+2. Run the application's DLL from command line (found in .\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll) : 
 ```
-dotnet GenSvcBrokerMeta.dll
+dotnet \ServiceBrokerMetaGen\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll
 ```
+4. Provide the requested template in JSON format. 
+5. Outputs the AWS::ServiceBroker::Specification in both JSON and YAML format. 
+6. Copy and Paste ithe ouput into your template under the MetaData section.
+7. Edit the output to remove parameters not needed within a service plan.
 
 ## Demo Output
 
 ```
 
-C:\Release>dotnet GenSvcBrokerMeta.dll
+C:\Test>dotnet ServiceBrokerMetaGen.dll
 Create ServiceBroker MetaData for template
 ==========================================
 
