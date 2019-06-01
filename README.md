@@ -6,7 +6,8 @@ It will include all parameters in the template into the metadata.
 ## Setup
 
 1. Requires .net core 2.1 (https://dotnet.microsoft.com/download/dotnet-core/2.1) (for Windows/MacOS/Linux/Other)
-2. Run the application's DLL from command line (found in .\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll) : 
+2. No build process required
+3. Run the application's DLL from command line (found in .\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll) : 
 ```
 dotnet \ServiceBrokerMetaGen\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll
 ```
