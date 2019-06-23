@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj": {}
+    "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj": {
+    "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
+        "projectUniqueName": "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
         "projectName": "ServiceBrokerMetaGen",
-        "projectPath": "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
+        "projectPath": "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
         "packagesPath": "C:\\Users\\ndrest\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\obj\\",
+        "outputPath": "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -52,7 +52,7 @@
             },
             "YamlDotNet": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             }
           },
           "imports": [

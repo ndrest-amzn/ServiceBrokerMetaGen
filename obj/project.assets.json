@@ -217,7 +217,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "YamlDotNet/6.0.0": {
+      "YamlDotNet/6.1.1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.3/YamlDotNet.dll": {}
@@ -729,10 +729,10 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "YamlDotNet/6.0.0": {
-      "sha512": "Y198v1lh0rda2G8nGZMMClvrS88JQkdqRfZEDY/OrlGjmJujSXoh6eHG23vPC3N7xdQQtl9aFb3ekj/ijWETww==",
+    "YamlDotNet/6.1.1": {
+      "sha512": "RsLcGUuReR1b2TghYl3heRMTE+Ry6Kt+pvoRRfOnGG45ik8W4S1mQaXlgMOwBYeTFyeyVCATrdAKRbRcHdI6oQ==",
       "type": "package",
-      "path": "yamldotnet/6.0.0",
+      "path": "yamldotnet/6.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -746,7 +746,7 @@
         "lib/net45/YamlDotNet.xml",
         "lib/netstandard1.3/YamlDotNet.dll",
         "lib/netstandard1.3/YamlDotNet.xml",
-        "yamldotnet.6.0.0.nupkg.sha512",
+        "yamldotnet.6.1.1.nupkg.sha512",
         "yamldotnet.nuspec"
       ]
     }
@@ -755,7 +755,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
       "Newtonsoft.Json >= 12.0.2",
-      "YamlDotNet >= 6.0.0"
+      "YamlDotNet >= 6.1.1"
     ]
   },
   "packageFolders": {
@@ -765,11 +765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
+      "projectUniqueName": "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
       "projectName": "ServiceBrokerMetaGen",
-      "projectPath": "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
+      "projectPath": "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\ServiceBrokerMetaGen.csproj",
       "packagesPath": "C:\\Users\\ndrest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndrest\\Documents\\GitHub\\local\\ServiceBrokerMetaGen\\obj\\",
+      "outputPath": "C:\\Users\\ndrest\\Documents\\GitHub\\ServiceBrokerMetaGen\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -810,7 +810,7 @@
           },
           "YamlDotNet": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.1.1, )"
           }
         },
         "imports": [

@@ -48,15 +48,18 @@ namespace ServiceBrokerMetaGen
         {
             JObject rss = JObject.Parse(json);
             var list = new Dictionary<string, string>();
+            var list1 = new Dictionary<string, string>(); //workaround due to but in YamlDotNet
 
             foreach (JProperty item in rss["Parameters"])
             {
                 list.Add(item.Name, (string)item.Value["Default"]);
+                list1.Add(item.Name, (string)item.Value["Default"]);
             }
-            CreateJsonMeta(list);
+            
+            CreateJsonMeta(list,list1); 
         }
 
-        static void CreateJsonMeta(Dictionary<string, string> pValues)
+        static void CreateJsonMeta(Dictionary<string, string> pValues, Dictionary<string, string> pValues1)
         {
             MetaData output = new MetaData();
             AWSServiceBrokerSpecification specificiation = new AWSServiceBrokerSpecification();
@@ -73,13 +76,13 @@ namespace ServiceBrokerMetaGen
                 DisplayName = "Production",
                 Description = "Configuration designed for production deployments",
                 ParameterValues = pValues
-            };
+            };            
 
             oServicePlans.dev = new ServicePlan()
             {
                 DisplayName = "Development",
                 Description = "Configuration designed for development and testing deployments",
-                ParameterValues = pValues
+                ParameterValues = pValues1
             };
 
             oServicePlans.custom = new ServicePlan()
@@ -87,7 +90,7 @@ namespace ServiceBrokerMetaGen
                 DisplayName = "Custom",
                 Description = "Custom Configuration for Advanced deployments",
                 ParameterValues = new Dictionary<string, string>()
-            };
+            };           
 
             specificiation.ServicePlans = oServicePlans;
             output.AWSServiceBrokerSpecification = specificiation;
@@ -119,28 +122,28 @@ namespace ServiceBrokerMetaGen
         {
             public string Version = "1";
             public List<string> Tags;
-            public string Name = "";
-            public string DisplayName = "";
-            public string LongDescription = "";
-            public string ImageUrl = "";
-            public string DocumentationUrl = "";
+            public string Name = "Short Name Goes Here";
+            public string DisplayName = "Display Product Name Goes Here";
+            public string LongDescription = "Long Description Goes Here";
+            public string ImageUrl = "Image Url Goes Here";
+            public string DocumentationUrl = "Documentation Url Goes Here";
             public string ProviderDisplayName = "Amazon Web Services";
             public ServicePlans ServicePlans;
         }
 
         class ServicePlans
         {
-            public ServicePlan production;
-            public ServicePlan dev;
-            public ServicePlan custom;
+            public ServicePlan production { get; set; }
+            public ServicePlan dev { get; set; }
+            public ServicePlan custom { get; set; }
         }
 
         class ServicePlan
         {
-            public string DisplayName = "";
-            public string Description = "";
-            public string LongDescription = "";
-            public string Cost = "";
+            public string DisplayName = "Display Product Name Goes Here";
+            public string Description = "Description Goes Here";
+            public string LongDescription = "Long Description Goes Here";
+            public string Cost = "Cost Url Goes Here";
             public Dictionary<string, string> ParameterValues;
         }
     }

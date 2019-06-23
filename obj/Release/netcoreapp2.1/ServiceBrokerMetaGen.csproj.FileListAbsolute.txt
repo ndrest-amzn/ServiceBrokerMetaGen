@@ -9,3 +9,14 @@ C:\Users\ndrest\Documents\GitHub\local\ServiceBrokerMetaGen\obj\Release\netcorea
 C:\Users\ndrest\Documents\GitHub\local\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.AssemblyInfo.cs
 C:\Users\ndrest\Documents\GitHub\local\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll
 C:\Users\ndrest\Documents\GitHub\local\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.pdb
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.deps.json
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.runtimeconfig.json
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.runtimeconfig.dev.json
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.csprojAssemblyReference.cache
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.csproj.CoreCompileInputs.cache
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.AssemblyInfoInputs.cache
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.AssemblyInfo.cs
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.dll
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\obj\Release\netcoreapp2.1\ServiceBrokerMetaGen.pdb
+C:\Users\ndrest\Documents\GitHub\ServiceBrokerMetaGen\bin\Release\netcoreapp2.1\ServiceBrokerMetaGen.pdb
